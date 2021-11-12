@@ -9,6 +9,8 @@ El sitio web contendrá lo siguiente:
 - Login
 - Base de datos con las cuentas de los jugadores
 
+cdn <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
 Colores usados:
 
 - 753221 Marrón rojizo
