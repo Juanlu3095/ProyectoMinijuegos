@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+:root {
+    --black-blue: #120B21;
+    --blue: #1B477A;
+    --purple: #6E1F5D;
+    --brown: #753221;
+    --green: #278A6F;
+  }
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*HEADER*/
+
+.banner{
+    background-color:#120B21;
+    background-image: url(../img/banner.png);
+    height:30vh;
+}
+
+i{
+    font-size:30px;
+}
+
+.icon{
+    display:flex;
+    justify-content:flex-end;
+    color: var(--blue);
+}
+
+
+.user-icon{
+    font-size:50px;
+    margin:10px;
+    
+}
+
+.brand-name{
+    text-align:center;
+    font-size:50px;
+    color:var(--blue);
+    font-family: 'Yuji Boku', serif;
+    font-weight: bold;
+}
+
+.brand-name span{
+    border:2px solid;
+    padding:5px;
+}
+
+.top-nav{
+    display:flex;
+    justify-content: space-around;
+    background-color:var(--green)
+    
+}
+
+.item-nav{
+    margin:15px 0 15px 0;
+    font-weight: bold;
+    
+}
+
+.search-flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.icon-search{
+    padding-left:5px;
+}
+div a{
+    text-decoration: none;
+    color:var(--black-blue);
+}
+   
+/*CONTENEDOR*/
+
+#contenedor{
+    background-color:white;
+}
+
+section{
+    display: flex;
+}
+
+.card{
+    height: 300px;
+}
+
+#minijuegos{
+    float:left;
+    width:70%;
+    height:500px;
+    background-color: var(--purple);
+}
+
+#noticias{
+    float:right;
+    width:30%;
+    height:500px;
+    background-color: var(--blue);
+}
