@@ -94,15 +94,14 @@ section{
     display: flex;
 }
 
-.card{
-    height: 300px;
-}
-
 #minijuegos{
+    gap:10px;
     float:left;
     width:70%;
     height:500px;
     background-color: var(--purple);
+    padding-left:10px;
+    padding-top:10px;
 }
 
 #noticias{
