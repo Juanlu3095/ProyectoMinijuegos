@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+:root {
+    --black-blue: #120B21;
+    --blue: #1B477A;
+    --purple: #6E1F5D;
+    --brown: #753221;
+    --green: #278A6F;
+  }
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.presentation{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+.container-contact{
+  
+}
+
+.img-perfil{
+  margin-top: 1.5em;
+ 
+}
+
+.img-perfil-card{
+  width: 100px;
+  height: 100px;
+}
+
+.img-perfil-antonioj{
+ 
+}
