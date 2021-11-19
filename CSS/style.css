@@ -110,3 +110,33 @@ section{
     height:500px;
     background-color: var(--blue);
 }
+
+/*FOOTER*/
+
+.footer{
+    background-color: var(--black-blue);
+    color:var(--green);
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+    text-align: center;
+    height: 6rem;
+    width: 100%;
+}
+
+.footer div{
+    margin: auto 0;
+    padding: 1.5rem 4rem;
+}
+
+.footer-left{
+    border-right: var(--green) solid 1px;
+}
+
+.footer-center{
+    border-right: var(--green) solid 1px;
+}
+
+.footer-right{
+
+}
